@@ -1,0 +1,24 @@
+.nav {
+  padding: 2.7vw;
+  border-top: $g-border-style;
+  border-bottom: $g-border-style;
+  border-right: $g-border-style;
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__link {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .nav {
+    &__item {
+      font-size: 1vw;
+    }
+  }
+}

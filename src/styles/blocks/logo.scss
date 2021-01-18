@@ -1,0 +1,52 @@
+.logo {
+  display: flex;
+  padding: 2vw 5vw 1vw;
+  align-items: center;
+  border-bottom: $g-border-style;
+  border-right: $g-border-style;
+
+  &__title {
+    position: relative;
+    font-size: 2.5vw;
+    margin-right: 7px;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -5px;
+      display: block;
+      width: 1px;
+      height: 100%;
+      background-color: #fff;
+    }
+  }
+
+  &__text {
+    font-size: 0.5vw;
+    white-space: pre;
+    line-height: 1vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    &__text {
+      font-size: 0.4vw;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    border-bottom: none;
+
+    &__title {
+      font-size: 4.5vw;
+    }
+    &__text {
+      font-size: 1.4vw;
+      line-height: 2vw;
+    }
+  }
+}

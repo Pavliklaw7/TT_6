@@ -4,3 +4,17 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Neutral Face";
+  src: url("../fonts/neutral_face/NeutralFace.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neutral Face Bold";
+  src: url("../fonts/neutral_face/NeutralFace-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: bold;
+}
